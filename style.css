@@ -1,0 +1,212 @@
+*{
+    font-family: "SF Pro text", "SF Pro icons", "Arial", "Helvetica", "sans-serif", "helvetica neue";
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(0,0,0,0.8);
+    height: 44px;
+       
+}
+
+nav ul {
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 980px;
+    height: 48px;
+   }
+
+nav ul a {
+    color:#f5f5f7;
+    text-decoration: none;
+    font-size: 12px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+nav ul a:hover {
+    opacity: 1;
+}
+
+nav ul a:visited {
+    color:#f5f5f7;
+}
+
+
+.box1 {
+text-align: center;
+background-color: white;
+padding-top: 63px;
+height: 580px;
+background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_large.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.texto1{
+    font-size: 56px;
+    letter-spacing: inherit;
+    margin-bottom: 0px;
+    
+}
+
+.texto2{
+font-size: 28px;
+margin-top: 10px;
+
+}
+
+.link {
+    color: #0066cc;
+    font-size: 21px;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+  
+}
+
+.links{
+    margin-top: 0.65rem;
+
+}
+
+.box2 {
+    text-align: center;
+    background-color: #35283c;
+    height: 624px;
+    padding-top: 15px;
+    background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_large.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    }
+    .texto4{
+        font-size: 50px;
+        letter-spacing: inherit;
+        margin-bottom: 0px;
+        color:white;
+        
+    }
+    
+    .texto5{
+    font-size: 1.7rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #fec2eb;
+    
+    }
+    
+    .texto6 a{
+        color: #0066cc;
+        margin-left: -4px;
+        margin-right: 35px;
+        font-size: 21px;
+        margin-top: 10px;
+        
+    }
+
+    .box3 {
+        text-align: center;
+        background-color: #35283c;
+        height: 624px;
+        padding-top: 15px;
+        background-image: url(https://www.apple.com/es/home/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_large.jpg);
+        background-size: cover;
+        background-position: center;
+        
+        }
+        .texto7{
+            font-size: 50px;
+            letter-spacing: inherit;
+            margin-bottom: 0px;
+            color:white;
+            
+        }
+        
+        .texto8{
+        font-size: 1.7rem;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        color: #fec2eb;
+        
+        }
+        
+       .multipleBoxes{
+        display: flex;
+        flex-wrap: wrap;
+
+       }
+
+       .smallbox{
+        height: 624px;
+        background-color: blue;
+        flex-grow: 1;
+        margin: 15px;
+        min-width: 350px;
+        text-align: center;
+      
+       }
+
+       .sbox1{
+        background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_large.jpg);
+        background-size: cover;
+        background-position: center;
+       }
+
+       .sbox2{
+           background-image: url(https://www.apple.com/euro/home/x/screens_alt/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_large.jpg);
+           background-size: cover;
+           background-position: center;
+       }
+
+       .sbox3{
+        background-image: url(https://www.apple.com/es/home/images/promos/watch-heart-month/promo_watch_heart__dlf8uc5h0kae_large.jpg);
+        background-size: cover;
+        background-position: center;
+       }
+
+       .sbox4{
+           background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-black-unity/promo_watch__fo7j0tnywi2q_large.jpg);
+           background-size: cover;
+           background-position: center;
+       }
+       .oferta{
+        font-size: 12px;
+        color: #bf4800
+       }
+
+       .sbox5{
+        background-image: url(https://www.apple.com/v/home/aj/images/promos/apple-fitness-plus-winter/tile_winter__bpktzwl6hsc2_large.jpg);
+        background-size: cover;
+        background-position: center;
+       }
+
+       .sbox6{
+           background-image: url(https://www.apple.com/v/home/aj/images/promos/tv-plus-suspicion/promo_suspicion__cuan5534xoq6_large.jpg);
+           background-size: cover;
+           background-position: center;
+       }
+
+        .fitness{
+             margin-top: 57px;
+}
+
+.tv{
+margin-top: 53px;
+
+
+}
+
+
+       .informacion{
+           background-color: #f5f5f7;
+           border-color:#d2d2d7;
+           font-size: 12px;
+           box-sizing: content-box;
+           padding: 0;
+           margin: 0;
+           color: #6e6e73;
+       }
